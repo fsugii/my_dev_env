@@ -1,0 +1,7 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Flavio Sugii
+	email = fsugii@gmail.com
+# Please adapt and uncomment the following lines:
+#	name = Flavio Shiniti Sugii
+#	email = fshiniti@student.42porto.com

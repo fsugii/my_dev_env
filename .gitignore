@@ -1,2 +1,13 @@
+# Temporários do Vim
 *.swp
 *.swo
+*~
+.DS_Store
+
+# Dados do Neovim gerados automaticamente
+nvim/plugin/
+nvim/. netrwhist
+
+# Dados sensíveis
+*_local
+*. secret
