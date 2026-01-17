@@ -14,3 +14,6 @@ cd ~/dotfiles
 chmod +x install.sh
 ./install.sh
 
+
+## Tmux
+Configuração personalizada do tmux incluída. 
