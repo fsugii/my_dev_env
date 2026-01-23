@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=$PATH:/home/fshiniti/nvim/bin
 
-export USER42="fshiniti"
+# export USER42="fshiniti"
 export EMAIL42="student.42porto.com"
 
 export PAGER=less
