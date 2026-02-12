@@ -4,11 +4,17 @@
 
 local opt = vim.opt
 
--- Indentação (42 School)
+-- Configuração 42 School
 opt.tabstop = 4
-opt. shiftwidth = 4
-opt.expandtab = false       -- Tabs reais, não espaços
+opt.shiftwidth = 4
+opt.softtabstop = 4         -- Adicione isto: mantém o comportamento do Tab consistente
+opt.expandtab = false       -- Tabs reais
 opt.smarttab = true
+
+-- Desative o smartindent se ele estiver a causar saltos
+-- O smartindent às vezes tenta adivinhar a indentação de C e falha com Tabs
+opt.autoindent = true
+opt.smartindent = false     -- Tente desativar se o cursor pular sozinho
 
 -- Interface
 opt.signcolumn = "auto:1"
